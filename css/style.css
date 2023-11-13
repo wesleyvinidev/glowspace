@@ -1,0 +1,115 @@
+html, body, #Glow-Espaço, #curso-online, #Portifolio, #depoimentos {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+    background:linear-gradient(90deg,#fdcf0077,#ebe7d8);
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+.caixa1{
+    padding-bottom: 10px;
+    background:linear-gradient(90deg,#fff,#fef5cc );
+}
+.caixa3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background:linear-gradient(90deg,#fdcf0077,#ebe7d8);
+}
+#depoimentos{
+    letter-spacing: 5px;
+    
+}
+
+#curso-online{
+	overflow-y: hidden;
+}
+
+#depoimentos p{
+    font-size: 2em;
+}
+/* Barra de navegação
+-----------------------------*/
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background:rgba(253, 205, 0, 0.2) ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #fdcd00;
+}
+
+a{
+    color: #000;
+}
+a:hover{
+    color: #fdcd00;
+}
+
+/* Capa
+-----------------------------*/
+.capa {
+	text-align: center;
+}
+
+.btn{
+    border: 2px solid black;
+    color: #000;
+}
+
+
+.btn:hover {
+	background: #fdcd00;
+	color: black;
+    border: 2px solid black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.btn-custom {
+		margin: 10px 15px;
+		font-size: 1em;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+	.btn-custom {
+		margin: 10px 15px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+
